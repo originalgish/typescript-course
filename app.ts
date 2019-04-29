@@ -1,14 +1,14 @@
-let myName: string = "Den"
+let myName: string = 'Den'
 let myAge = 11
 let hasHobbies: boolean = true
 
 let myRealAge: number
 
-let hobbies: any[] = ["Cooking", "Sports"]
+let hobbies: any[] = ['Cooking', 'Sports']
 hobbies = [0]
 
-let address: [string, number] = ["Street", 0]
-address = ["1", 0]
+let address: [string, number] = ['Street', 0]
+address = ['1', 0]
 
 enum Color {
   Gray,
@@ -29,7 +29,7 @@ function multiply(value1: number, value2: number) {
 let myMultiply
 
 let userData: { name: string; age: number } = {
-  name: "Max",
+  name: 'Max',
   age: 12
 }
 
@@ -46,10 +46,10 @@ complex.output(false)
 console.log(complex.output(false))
 
 let myRealRealAge: number | string = 27
-myRealRealAge = "27"
+myRealRealAge = '27'
 
 function neverReturn(): never {
-  throw new Error("error")
+  throw new Error('error')
 }
 
 let canBeNull: number | null = 12
